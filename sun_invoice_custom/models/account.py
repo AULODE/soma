@@ -35,6 +35,6 @@ class Account_journal(models.Model):
     def _update_custom_sequence_name(self):
         for jrnl in self.search([('type', '=', 'sale')]):
             if jrnl.sequence_id:
-                jrnl.sequence_id.prefix = "BL/FAC/%(range_year)s/"
+                jrnl.sequence_id.prefix = "BL-FACTURE/%(range_year)s/"
             if jrnl.refund_sequence_id:
                 jrnl.refund_sequence_id.prefix = "AVOIR/%(range_year)s/"
