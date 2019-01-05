@@ -4,7 +4,7 @@
     'category': 'Accounting',
     'author': 'Kiran Kantesariya',
     'summary': 'Account Customization',
-    'depends': ['account','account_cancel'],
+    'depends': ['account'],
     'data': ['views/sequence_file.xml',
              'views/report_invoice.xml'],
     'installable': True,
