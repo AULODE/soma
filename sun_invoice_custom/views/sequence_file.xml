@@ -7,7 +7,7 @@
     <report
             id="reportid_custom_account_invoices"
             model="account.invoice"
-            string="Invoices - Sun"
+            string="Facture ICE"
             report_type="qweb-pdf"
             name="sun_invoice_custom.custom_report_invoice"
             file="sun_invoice_custom.custom_report_invoice"

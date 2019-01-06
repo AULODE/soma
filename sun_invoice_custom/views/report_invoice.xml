@@ -141,8 +141,9 @@
                             </div>
                         </div>
                     </div>
-                    <p t-if="o.amount_words" name="amount_words">
-                        <span t-field="o.amount_words"/>
+
+                     <p t-if="o.amount_words">
+                     Arrêter la presente facture à la somme de : <span t-field="o.amount_words"/>
                     </p>
                     <p t-if="o.comment">
                         <span t-field="o.comment"/>

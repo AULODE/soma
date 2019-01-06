@@ -3,7 +3,7 @@
     <data>
         <report 
             id="custom_action_report_saleorder"
-            string="Quotation / Order - Sun"
+            string="BL AZUL PESCA"
             model="sale.order" 
             report_type="qweb-pdf"
             file="sun_report_custom.custom_report_saleorder"
