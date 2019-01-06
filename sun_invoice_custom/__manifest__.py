@@ -1,6 +1,11 @@
 {
-    'name': 'Account customization',
+    'name': 'Invoice Report Customization',
     'version': '11.0.1',
+    'description':
+        """
+Odoo-11.0 Invoice Report Customization
+===================================
+        """,    
     'category': 'Accounting',
     'author': 'Kiran Kantesariya',
     'summary': 'Account Customization',

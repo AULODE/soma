@@ -1,12 +1,13 @@
 {
-    'name': 'Customer Extend',
+    'name': 'Customer view Extension',
     'category': 'Base',
     'author': 'Kiran Kantesariya',
     'version': '11.0.1',
     'description':
         """
-        Customer Extend
-        """,
+Odoo-11.0 Customer view Extension
+===================================
+        """,    
     'depends': ['base','account'],
     'data': [
             'views/res_partner_view_extend.xml',
